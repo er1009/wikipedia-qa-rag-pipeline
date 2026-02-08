@@ -1,0 +1,59 @@
+# Environment & secrets
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Indexes (too large for git)
+*_index/
+*.tgz
+
+# Model weights (too large for git)
+*.bin
+*.pth
+*.safetensors
+*.onnx
+
+# Caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Data (user downloads)
+data/train.csv
+data/test.csv
+data/rag_course/
+
+# Outputs
+submission.csv
+*.csv.bak
